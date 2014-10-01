@@ -1,0 +1,596 @@
+
+	/*GENERAL PAGE SETTINGS*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+a:link {color:#0023f5;}      /* unvisited link */
+a:visited {color:#1b599d;}  /* visited link */
+a:hover {color:#1b599d;}  /* mouse over link */
+a:active {color:#1b599d;}  /* selected link */ 
+
+
+h1 {
+    font-family:"Arial";
+	font-size: 21px;
+	color: #333333;
+  }
+  /*h1:hover {
+    background: yellow;
+  }*/
+
+
+h2 {
+	font-family:"Arial";
+	font-size: 16px;
+	color: #f15c23;	
+	}
+
+/* Index Page*/
+.index_class {
+right: 0px;
+top: -70px;
+margin: 0 auto;
+position: relative;
+font-family:"Arial";
+font-size: 13px;
+}
+
+
+.content {
+	min-height: 100%;
+	position: relative;
+	overflow: auto;
+	z-index: 0; 
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+.left_block {
+	display: block;
+	float: left; 
+}
+
+.page_content {
+background-color: #fffffff;
+color: #999999;
+margin: 0 auto;
+position: relative;
+width: 1024px;
+height: 3100px;
+}
+
+	/*TOP BLOCK*/
+
+.top_block {
+background-color: #ffffff;
+right: 180px;
+top: 0px;
+margin: 0 auto;
+position: relative;
+width: 1397px;
+height: 100px;
+}
+
+.top_block_anon {
+background-color: #ffffff;
+right: 180px;
+top: -15px;
+margin: 0 auto;
+position: relative;
+width: 1397px;
+height: 100px;
+}
+
+	/*CENTER BLOCK*/
+
+		/*** General and Background - Center Block ***/
+
+
+.center_block {
+/*background-color: #66CCCC;*/
+top: 60px;
+right: 184px;
+margin: 0 auto;
+position: relative;
+width: 1397px;
+height: 2768px;
+}
+
+.center_block_anon {
+/*background-color: #66CCCC;*/
+top: 35px;
+right: 184px;
+margin: 0 auto;
+position: relative;
+width: 1397px;
+height: 2768px;
+}
+
+.bottom_img_1 {
+top: 15px;
+margin: 0 auto;
+position: relative;
+}
+
+.center_img_2 {
+top: 717px;
+left:6px;
+margin: 0 auto;
+position: relative;
+}
+
+.center_img_3 {
+top: 713px;
+left:6px;
+margin: 0 auto;
+position: relative;
+}
+
+		/*** Right Side - Center Block ***/
+
+.center_right {
+/*background-color: #cccccc;*/
+right: -424px;
+top:-5056px;
+margin: 0 auto;
+position: relative;
+width: 548px;
+height: 2768px;
+}
+
+			
+			/*** BUY BOX ***/				
+.rt_buy_box {
+background-color: #ffffff;
+
+/*border-style:solid;
+border-width:2px;
+border-color:#FFEF00;*/
+
+width: 275px;
+height: 350px;
+
+right: 100px;
+top:-790px;
+margin: 0 auto;
+position: relative;
+z-index: 19000;
+}
+
+
+/*Member Buys with Credit - 1st Slide*/
+
+.bb_container {
+background-color: #f1f1f1;
+border-style:solid;
+border-width:1px;
+border-color:#e2e2e2;
+width: 220px;
+height: 270px;
+margin: 10px 10px 10px 10px;
+margin: 0 auto;
+position: relative;
+z-index: 19000;
+}
+
+.bb_container {-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+}
+
+
+/*Member Buys with Credit - 1st Slide*/
+
+.bb_container {
+background-color: #f1f1f1;
+border-style:solid;
+border-width:1px;
+border-color:#e2e2e2;
+width: 220px;
+height: 270px;
+margin: 10px 10px 10px 10px;
+margin: 0 auto;
+position: relative;
+z-index: 19000;
+}
+
+.bb_container {-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+}
+
+
+.bb_bottom_section {
+background-color: #f1f1f1;
+border-style:solid;
+border-width:1px;
+border-color:#e2e2e2;
+width: 220px;
+height: 50px;
+margin: 10px 10px 10px 10px;
+margin: 0 auto;
+position: relative;
+z-index: 22000;
+}
+
+
+
+			/*** BUTTON BOXES***/
+/*** Button  1 ***/		
+.bb_buy_1 {
+	-moz-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	-webkit-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f15c22), color-stop(1, #f15c22) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0;
+	border:.5px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:100;
+	font-style:normal;
+	height:40px;
+	line-height:20px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	
+	position: relative;
+	margin: 30px 10px 0px 10px;
+}
+.bb_buy_1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a84018), color-stop(1, #a84018) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}
+
+.bb_buy_1:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*** Member Confirming Credit ***/		
+.member_bb_buy_2 {
+	-moz-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	-webkit-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0;
+	border:.5px solid #f15c22;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:100;
+	font-style:normal;
+	height:40px;
+	line-height:20px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	
+	position: relative;
+	margin: 30px 10px 0px 10px;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color:#f15c22;
+}
+.member_bb_buy_2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}
+
+.member_bb_buy_2:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*** Button 2 ***/
+
+.bb_buy_2 {
+	-moz-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	-webkit-box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	box-shadow:inset 0px 0px 0px -3px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #777), color-stop(1, #777) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0;
+	border:.5px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:100;
+	font-style:normal;
+	height:40px;
+	line-height:20px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #777;
+	
+	position: relative;
+	margin: 12px 10px 0px 10px;
+}
+
+.bb_buy_2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #535353), color-stop(1, #535353) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}
+.bb_buy_2:active {
+	position:relative;
+	top:21px;
+}
+.bb_buy_2 {
+	position:relative;
+	top:20px;
+}
+
+
+.bb_buy_confirm {
+		background: #ffffff;
+		border-style:solid;
+		border-width:1px;
+		border-color:#f95831;
+		color:#f95831;
+}
+
+
+		/*** Box ***/
+.bb_comments_1 {
+	color: #777;
+	text-align: center;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+	height:40px;
+	line-height:15px;
+	width:200px;
+	margin: 45px 5px 2px 5px;
+}
+
+
+/*** Thank You Box Items ****/
+
+a6 {
+font-family:"Arial";
+font-size: 13px;
+font-weight:bold;
+line-height:8px;
+color: #555;
+
+margin: 5px 5px 5px 5px;
+}
+
+a7 {
+font-family:"Arial";
+font-size: 13px;
+font-weight:normal;
+line-height:8px;
+color: #555;
+
+margin: 5px 5px 5px 5px;
+}
+
+a8 {
+font-family:"Arial";
+font-size: 13px;
+font-weight:normal;
+line-height:8px;
+color: #555;
+
+margin: 5px 5px 5px 5px;
+}
+
+a9 {
+font-family:"Arial";
+font-size: 13px;
+font-weight:normal;
+line-height:8px;
+color: #6495ED;
+
+margin: 5px 5px 5px 5px;
+}
+
+
+.bb_content_2_cash {
+	color: #000000;
+	text-align: center;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:15px;
+	margin: -90px 5px 2px 5px;	
+}
+
+/*** PRICING LINKS ***/
+
+.bb_view_pricing_1_stndrd {
+	color: #155799;
+	text-align: center;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	font-style:normal;
+	height:40px;
+	line-height:15px;
+	width:200px;
+	margin: -10px 5px 2px 5px;	
+}
+
+.bb_view_pricing_2_cash {
+	color: #155799;
+	text-align: center;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:15px;
+	position: relative;
+	margin: 55px 5px 0px 0px;
+}
+
+
+
+/**PROMO CODE LINKS**/
+
+.bb_promo_1_stndrd {
+	color: #155799;
+	text-align: center;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:15px;
+	position: relative;
+	margin: 7px -38px 0px 53px;
+}
+
+
+/*Promo Code 2nd Click*/
+.bb_promo_2_credit {
+	color: #155799;
+	text-align: center;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:15px;
+	position: relative;
+	margin: 85px -85px 0px 0px;
+}
+
+/*Promo Code 1st Click*/
+.bb_promo_2_cash {
+	color: #155799;
+	text-align: center;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:15px;
+	position: relative;
+	margin: 30px -90px 0px 0px;
+}
+
+
+		/*** Left Side - Center Block ***/
+
+.center_left {
+/*background-color: #756532;*/
+margin: 0 auto;
+position: relative;
+width: 850px;
+height: 2768px;
+top:-2288px;
+z-index: 1000;
+right:274px;
+}
+
+.center_contextual {
+background-color: #666666;
+
+
+width: 275px;
+height: 350px;
+
+right: -140px;
+top:-2110px;
+margin: 0 auto;
+position: relative;
+z-index: 10000;
+clear:both;
+}
+
+
+	/*End*/
